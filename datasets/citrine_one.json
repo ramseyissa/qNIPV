@@ -1,0 +1,5838 @@
+[
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Aluminium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "241", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "236", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "240", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "233", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "92", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Antimony"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "33", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "25.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "22", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "19", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "27", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Beryllium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "367", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "218", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "168", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "129", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "93", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Bismuth"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "11", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "8.2", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "7.2", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Cadmium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "100", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "97", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "95", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "89", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "45", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Caesium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "37", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "36", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "20", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "20.6", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17.7", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Cerium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "8", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "11", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "16", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Chromium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "120", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "96.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "92", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "82", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "66", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Cobalt"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "130", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "105", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "89", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "69", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "53", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Copper"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "420", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "403", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "395", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "381", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "354", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Dysprosium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "9", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "10.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Erbium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "14", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "15", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Gadolinium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "12", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "10", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Gallium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "43", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "41", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "33", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "45", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Gold"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "324", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "319", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "313", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "299", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "272", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Hafnium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "25", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "23", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "22", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Holmium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "14", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "16", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Indium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "92", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "84", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "76", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "42", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Iridium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "156", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "147", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "145", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "139", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Iron"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "99", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "83.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "72", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "56", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "34", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Lanthanum"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "12", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "14.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Lead"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "37", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "36", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "34", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "32", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Lithium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "94", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "86", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "82", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "47", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "59", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Lutetium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "18", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Magnesium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "160", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "157", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "154", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "150", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Manganese"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "7", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "8", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Mercury"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "29.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "7.8", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "9.4", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "11.7", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Molybdenum"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "145", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "139", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "135", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "127", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "113", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Nickel"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "113", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "94", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "83", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "67", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "71", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Niobium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "53", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "53", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "55", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "64", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Osmium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "93", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "88", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "87", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "87", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Palladium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "72", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "72", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "73", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "79", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "93", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Platinum"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "73", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "72", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "72", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "73", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "78", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Plutonium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "4", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "6", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "8", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Potassium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "105", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "104", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "53", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "45", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "32", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Praseodymium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "9.9", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "12", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13.4", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Rhenium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "52", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "49", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "47", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "44", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "45", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Rhodium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "156", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "151", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "147", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "137", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Rubidium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "59", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "32", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "29", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "22", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Ruthenium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "123", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "117", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "115", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "108", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "98", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Samarium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "10", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "13", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "14", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Scandium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "15", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "16", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Silver"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "432", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "428", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "422", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "407", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "377", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Sodium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "141", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "142", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "88", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "78", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "60", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Tantalum"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "57", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "60", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Technetium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "51", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "50", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "50", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Terbium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "11", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "10.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Thallium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "51", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "47", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "44", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Thorium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "55", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "54", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "54", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "56", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "58", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Thulium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "16", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Tin"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "76", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "68", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "63", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "32", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "40", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Titanium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "26", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "22", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "19", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Tungsten"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "188", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "177", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "163", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "139", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "119", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Uranium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "24", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "27", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "29", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "33", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "43", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Vanadium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "32", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "31", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "31", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "33", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "38", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Yttrium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "16.5", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "17", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Zinc"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "117", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "117", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "112", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "104", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "66", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "category": "system.chemical", 
+        "references": [
+            {
+                "url": "http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_7.html"
+            }
+        ], 
+        "names": [
+            "Zirconium"
+        ], 
+        "properties": [
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "26", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "173.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "23", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "273.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "22", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "373.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "21", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "573.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }, 
+            {
+                "name": "Thermal conductivity, $\\lambda$", 
+                "scalars": "23", 
+                "dataType": "EXPERIMENTAL", 
+                "references": [
+                    {
+                        "table": {
+                            "caption": "Thermal conductivities of metallic elements", 
+                            "number": "1"
+                        }
+                    }
+                ], 
+                "units": "Wm$^{-1}$K$^{-1}$", 
+                "conditions": [
+                    {
+                        "units": "K", 
+                        "scalars": "973.2", 
+                        "name": "Temperature"
+                    }
+                ]
+            }
+        ]
+    }
+]
