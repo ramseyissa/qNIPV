@@ -1,5 +1,5 @@
 ### qNIPV
-Paper title: Sample-Efficient Active Learning for Materials Informatics Using Integrated Posterior Variance
+## Paper title: Sample-Efficient Active Learning for Materials Informatics Using Integrated Posterior Variance
 
 <img width="1382" height="430" alt="Screenshot 2026-01-05 at 2 52 23 PM" src="https://github.com/user-attachments/assets/f2bce31b-7081-476d-8648-bd6ee8923bf4" />
 
