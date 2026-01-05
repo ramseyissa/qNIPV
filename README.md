@@ -1,4 +1,7 @@
 # qNIPV
 Paper title: Sample-Efficient Active Learning for Materials Informatics Using Integrated Posterior Variance
 
+[graphical_abstract.pdf](https://github.com/user-attachments/files/24441194/graphical_abstract.pdf)
+
+
 Abstract: Developing accurate machine learning models with minimal data remains a central challenge in materials informatics. Efficient models can significantly reduce costly computational simulations and time-intensive experimentation by providing reliable predictions of material properties. In this work, we investigate the integrated posterior variance acquisition function within an active learning framework, comparing its performance against three established methods: random sampling, point-wise uncertainty sampling, and query-by-committee. We evaluate these methods across three diverse datasets: AutoAM, Thermoelectric, and NMR. Our results demonstrate that integrated posterior variance consistently outperforms conventional methods in selecting candidates that minimize prediction error with fewer labeled samples. We identify two key limitations: computational overhead that increases with dataset size and diminished effectiveness in high-dimensional feature spaces where distance metrics become less meaningful. Despite these constraints, our approach demonstrates how strategic experimental selection can substantially improve model performance across varying materials informatics domains while minimizing the number of required experiments, offering significant resource savings for materials discovery workflows
