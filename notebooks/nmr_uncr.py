@@ -1,72 +1,22 @@
-from typing import Any, Dict, Optional
 import torch
-import random
-import os 
-
-from typing import (
-    Any,
-    Callable,
-    Dict,
-    Hashable,
-    Iterable,
-    List,
-    Optional,
-    Sequence,
-    Tuple,
-    Type,
-    TypeVar,
-    Union,
-)
 import time
-
-import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import pickle
+import warnings
 
-from botorch.models.gp_regression import SingleTaskGP
 from tqdm import tqdm
-from torch import Tensor
-from botorch.acquisition.active_learning import (
-    MCSampler,
-    qNegIntegratedPosteriorVariance,
-)
-
-from botorch.fit import fit_gpytorch_mll
-from sklearn.model_selection import train_test_split
 from botorch.models.gp_regression import SingleTaskGP
-
+from botorch.fit import fit_gpytorch_mll
+from botorch.exceptions.warnings import InputDataWarning
+from gpytorch.mlls import ExactMarginalLogLikelihood
 from sklearn.metrics import mean_absolute_error
 
-
-
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.svm import SVR
-from sklearn.tree import DecisionTreeRegressor
-import warnings
-
-
-# warnings.filterwarnings("ignore", category=botorch.exceptions.BotorchWarning)
-
-from botorch.exceptions.warnings import BotorchTensorDimensionWarning, InputDataWarning
 warnings.filterwarnings(
-            "ignore",
-            message="Input data is not standardized.",
-            category=InputDataWarning,
-        )
-import warnings
-warnings.filterwarnings("ignore")
-
-
-
-from botorch.models.fully_bayesian import SaasFullyBayesianSingleTaskGP
-from gpytorch.mlls import ExactMarginalLogLikelihood
-
-from botorch.acquisition.active_learning import (
-    MCSampler,
-    qNegIntegratedPosteriorVariance,
+    "ignore",
+    message="Input data is not standardized.",
+    category=InputDataWarning,
 )
-
-import pickle
+warnings.filterwarnings("ignore")
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -107,7 +57,6 @@ timing_per_iteration = []
 timing_per_run = []
 
 for seed in seeds:
-    # random.seed(seed)
     iteration_times = []
     uncr_pred_mae = []
     uncr_pred_std = []
@@ -119,30 +68,21 @@ for seed in seeds:
     
     xinit, yinit, xcandidates, ycandidates = random_initial_data(xcandidates_uncr, ycandidates_uncr, 0.05, seed=seed)
     
-
-    
     xinit = torch.cat(xinit,dim=0).to(device)
     yinit = torch.cat(yinit,dim=0).to(device)
 
-    
     gp = SingleTaskGP(xinit, yinit).to(device)
     mll = ExactMarginalLogLikelihood(gp.likelihood, gp).to(device)
     fit_gpytorch_mll(mll)
     
-    
-    
-    # Predict on the test set initially
     uncr_ypred = gp(xtest)
     uncr_ypred_mean = uncr_ypred.mean.detach().numpy()
-    # uncr_pred_mean.append(uncr_ypred_mean)
     
     uncr_ymae = mean_absolute_error(ytest, uncr_ypred_mean)
     
     uncr_pred_mae.append(uncr_ymae)
     
     
-    
-    # for i in tqdm(range(100)):
     for inner_i in tqdm(range(len(xcandidates))):
         start_time = time.time()
         if not xcandidates:
@@ -156,20 +96,13 @@ for seed in seeds:
             tensor_uncertainty = posterior.stddev.mean().detach().numpy()
             uncertainties_list.append(tensor_uncertainty)
     
-    # Convert list to numpy array for argmax
         uncertainties = np.array(uncertainties_list)
-        
-        # posterior_candidates = gp([i for i in xcandidates])
-        
-        # uncertainties = [posterior_candidates.stddev.detach().numpy() for i in posterior_candidates]  
-
-        # Find the index of the candidate point with the highest uncertainty
+     
         max_uncertainty_idx = uncertainties.argmax()
         
         xinit= torch.cat((xinit, xcandidates[max_uncertainty_idx]), 0).to(device)
         yinit = torch.cat((yinit, ycandidates[max_uncertainty_idx]), 0).to(device)
         
-        # print('len of new train:', len(xtrain_rand))
         del xcandidates[max_uncertainty_idx]
         del ycandidates[max_uncertainty_idx]
         
@@ -183,7 +116,7 @@ for seed in seeds:
         uncr_ymae = mean_absolute_error(ytest, uncr_ypred_mean)
         uncr_pred_mae.append(uncr_ymae)
         
-        end_time = time.time()  # End timing
+        end_time = time.time()  
         iteration_time = end_time - start_time
         iteration_times.append(iteration_time)
         

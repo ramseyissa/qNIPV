@@ -1,71 +1,27 @@
-from typing import Any, Dict, Optional
 import torch
 import random
-import os 
+import os
 import argparse
-from typing import (
-    Any,
-    Callable,
-    Dict,
-    Hashable,
-    Iterable,
-    List,
-    Optional,
-    Sequence,
-    Tuple,
-    Type,
-    TypeVar,
-    Union,
-)
-from botorch.utils.sampling import draw_sobol_samples
-
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import warnings
 
-from botorch.models.gp_regression import SingleTaskGP
 from tqdm import tqdm
-from torch import Tensor
-from botorch.acquisition.active_learning import (
-    MCSampler,
-    qNegIntegratedPosteriorVariance,
-)
-
-from botorch.fit import fit_gpytorch_mll
-from sklearn.model_selection import train_test_split
 from botorch.models.gp_regression import SingleTaskGP
-
+from botorch.fit import fit_gpytorch_mll
+from botorch.exceptions.warnings import InputDataWarning
+from botorch.acquisition.active_learning import qNegIntegratedPosteriorVariance
+from botorch.utils.sampling import draw_sobol_samples
+from botorch.utils.transforms import normalize, standardize
+from gpytorch.mlls import ExactMarginalLogLikelihood
 from sklearn.metrics import mean_absolute_error
 
-
-
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.svm import SVR
-from sklearn.tree import DecisionTreeRegressor
-import warnings
-
-
-
-from botorch.exceptions.warnings import BotorchTensorDimensionWarning, InputDataWarning
 warnings.filterwarnings(
-            "ignore",
-            message="Input data is not standardized.",
-            category=InputDataWarning,
-        )
-import warnings
-warnings.filterwarnings("ignore")
-
-
-
-from botorch.models.fully_bayesian import SaasFullyBayesianSingleTaskGP
-from gpytorch.mlls import ExactMarginalLogLikelihood
-
-from botorch.acquisition.active_learning import (
-    MCSampler,
-    qNegIntegratedPosteriorVariance,
+    "ignore",
+    message="Input data is not standardized.",
+    category=InputDataWarning,
 )
-
-from botorch.utils.transforms import normalize, standardize
+warnings.filterwarnings("ignore")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -88,35 +44,19 @@ os.makedirs(output_dir, exist_ok=True)
 labels_path = os.path.join(data_dir, "labels.txt")
 colvar_path = os.path.join(data_dir, "COLVAR_NoOpt.csv")
 
-
-
-
-# read in .txt file containing nmr peaks
-# with open("../datasets/labels.txt", "r") as file:
-#     # Read the contents of the file into a list
-#     contents = file.readlines()
-
 with open(labels_path, "r") as file:
     contents = file.readlines()
 
-# Create a list of lists where each index in the text file is in its own list
 list_of_peaks = []
 for items in contents:
-    # Remove any whitespace and newlines from the index
     items = items.strip()
-    # Convert the index to an integer and create a new list containing the index
     new_list = [items]
-    # Append the new list to the list of lists
     list_of_peaks.append(new_list)
 
-
-# converts items in each sublist to floats
 peak_lists = [
     [round(float(val), 2) for val in sublist[0].split()] for sublist in list_of_peaks
 ]
 
-
-# df = pd.read_csv("../datasets/COLVAR_NoOpt.csv")
 df = pd.read_csv(colvar_path)
 peak_lists.pop(0)
 
@@ -127,18 +67,15 @@ for lst in peak_lists:
     for i in range(len(lst)):
         group_id_list_.append(group_id)      
 
-# df["group_id"] = group_id_list
-# df_loc_ = df.loc[1:,['g1','g4','l1','l2']]
+
 df_loc_ = df.loc[1:,['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'l1', 'l2', 'l3',
        'l4']]
-# df_loc_["group_id"] = group_id_list_
-# df_loc = df_loc_.drop_duplicates()
+
 group_id_list = [data for idx, data in enumerate(group_id_list_) if idx in df_loc_.index]
 y_values_cleaned = [data for idx, data in enumerate(df["ppm"]) if idx in df_loc_.index]
-# # df_loc.iloc[:,:-1]
+
 x_train_pre_Normalize = df_loc_
 
-#get the min and max of each column in the training data
 min_val_list = []
 max_val_list = []
 for col in x_train_pre_Normalize.columns:
@@ -155,8 +92,6 @@ xbounds = torch.stack([xlower_bounds, xupper_bounds])
 x_tensors = torch.tensor(x_train_pre_Normalize.values, dtype=dtype,device=device)
 y_tensors = torch.tensor(y_values_cleaned, dtype=dtype, device=device).unsqueeze(-1)
 
-# print(f'x_tensor.shape',x_tensors.shape)
-# print(f'y_tensor.shape',y_tensors.shape)
 
 
 x_train_normalized = normalize(x_tensors, bounds=xbounds)  
@@ -169,7 +104,6 @@ uniq_grps = list(unique_values)
 x_dict = {grp_id: [] for grp_id in uniq_grps}
 y_dict = {grp_id: [] for grp_id in uniq_grps}
 
-# Iterate through group_id_list and x_train_normalized simultaneously
 for grp_id, x_train_val in zip(group_id_list, x_train_normalized):
     x_dict[grp_id].append(x_train_val.unsqueeze(0))
 
@@ -178,7 +112,6 @@ for grp_id, y_train_val in zip(group_id_list, y_train_standardized):
       
 bounds = torch.stack([torch.min(x_train_normalized, axis=0).values, 
                       torch.max(x_train_normalized, axis=0).values])
-# bounds
 
 mcp = draw_sobol_samples(bounds=bounds, n=1024, q=1, seed=42).squeeze(1)
 mcp.to(device=device, dtype=dtype)
@@ -215,7 +148,6 @@ xcandidates_full_set = torch.cat(xcandidates_original, dim=0)
 ycandidates_full_set = torch.cat(ycandidates_original, dim=0)
 
 gp = SingleTaskGP(xcandidates_full_set, ycandidates_full_set).to(device)
-    # gp = SingleTaskGP(xinit, ytrain_,covar_module=rbf_kernel)
 mll = ExactMarginalLogLikelihood(gp.likelihood, gp).to(device)
 fit_gpytorch_mll(mll).to(device)
 
@@ -229,14 +161,13 @@ def find_max_normalized_acqval(tensor_list, qNIVP):
     max_value = None
     max_index = -1
     acq_val_lst = []
-    # torch.manual_seed(13)
+    
     for i, tensor in enumerate(tensor_list):
         tensor_len = len(tensor)
         qNIVP_val = qNIVP(tensor)
         normalized_qNIVP_val = qNIVP_val / tensor_len
-        acq_val_lst.append(normalized_qNIVP_val.item())  # Assuming it's a scalar tensor
+        acq_val_lst.append(normalized_qNIVP_val.item())  
 
-        # Check if this is the maximum value so far
         if max_value is None or normalized_qNIVP_val > max_value:
             max_value = normalized_qNIVP_val
             max_index = i
@@ -257,8 +188,6 @@ def random_initial_data(x, y, initial_percent, seed=i):
 
 
 seeds = [random.randint(1, 5000) for _ in range(25)]
-# print(seeds)
-# len(seeds)
 xcandidates = xcandidates_original.copy()
 ycandidates = ycandidates_original.copy()
 
@@ -270,12 +199,10 @@ pred_std = []
 qnipv_runs =[]
 
 
-
 def find_max_normalized_acqval(tensor_list, qNIVP):
     max_value = None
     max_index = -1
     acq_val_lst = []
-    # torch.manual_seed(13)
     for i, tensor in enumerate(tensor_list):
         tensor_len = len(tensor)
         qNIVP_val = qNIVP(tensor)
@@ -326,7 +253,6 @@ for i in tqdm(seeds):
         max_value, max_index, acq_val_lst = find_max_normalized_acqval(xcandidates, qNIVP)
         xmax_candidates.append(max_index)
         
-        # print(f'pre-addtion of new ten',len(xinit))
         xinit= torch.cat((xinit, xcandidates[max_index]), 0)
         yinit = torch.cat((yinit, ycandidates[max_index]), 0)
         
@@ -334,19 +260,14 @@ for i in tqdm(seeds):
         del xcandidates[max_index]
         del ycandidates[max_index]
         
-       
-        
         gp = SingleTaskGP(xinit, yinit) 
-        # gp = SingleTaskGP(xinit, ytrain_,covar_module=rbf_kernel)
         mll = ExactMarginalLogLikelihood(gp.likelihood, gp)
         fit_gpytorch_mll(mll)
-        #predict the y values for the test set
         ypred = gp(xtest)
         ypred_mean = ypred.mean.detach().numpy()
         pred_y.append(ypred_mean)
 
         ymae = mean_absolute_error(ytest, ypred_mean)
-        # print('mean absolute error: ', ymae)
         pred_mae.append(ymae)
         ystd = gp(xtest).stddev
         ystd = ystd.detach().numpy()
@@ -354,7 +275,6 @@ for i in tqdm(seeds):
     qnipv_runs.append(pred_mae)
     
 
-# np.save('qnipv_runs.txt', np.array(qnipv_runs))
 np.save(os.path.join(output_dir, 'qnipv_runs.txt'), np.array(qnipv_runs))
 
 
